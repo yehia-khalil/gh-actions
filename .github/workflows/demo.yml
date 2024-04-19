@@ -16,7 +16,7 @@ jobs:
       - name: Test code
         run: npm run test
       - name: save artifacts
-      - uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4
         with:
           name: build-files
           path: dist
